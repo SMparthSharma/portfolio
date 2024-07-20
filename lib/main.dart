@@ -6,7 +6,8 @@ import 'home.dart';
 void main() {
   runApp( GetMaterialApp(
     routes: {
-      "/": (context)=>Edit()
+      "/": (context)=>Home(),
+     // "/home":(context)=>Home()
     }
   ));
 }
