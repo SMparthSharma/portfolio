@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:portfolio/set_profile.dart';
 
 
 class Edit extends StatelessWidget {
@@ -19,7 +20,7 @@ class Edit extends StatelessWidget {
   late TextEditingController controllerPhone=TextEditingController();
 
   late TextEditingController controllerAboutMe=TextEditingController();
-
+  
 @override
   Widget build(BuildContext context) {
     return Scaffold(backgroundColor: Color(0xFF2D3250),

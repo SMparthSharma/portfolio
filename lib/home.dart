@@ -25,7 +25,9 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-   // String info = ModalRoute.of(context)?.settings.arguments as String;
+   Map info = (ModalRoute.of(context)!.settings.arguments ??{}) as Map;
+   print(info['domain']);
+
     return Scaffold(backgroundColor: Color(0xFF083033),
       body: SingleChildScrollView(
         child: Align(
@@ -67,7 +69,7 @@ class _HomeState extends State<Home> {
                               ),
         
                               Expanded(
-                                child: AutoSizeText("hncng", style: GoogleFonts.roboto(
+                                child: AutoSizeText('${info['name']}', style: GoogleFonts.roboto(
                                     textStyle: const TextStyle(
                                         fontSize: 35, fontWeight: FontWeight.bold,color: Colors.white)),
                                   overflow: TextOverflow.ellipsis,

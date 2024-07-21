@@ -7,7 +7,7 @@ void main() {
   runApp( GetMaterialApp(
     routes: {
       "/": (context)=>Home(),
-     // "/home":(context)=>Home()
+      "/home":(context)=>Home()
     }
   ));
 }

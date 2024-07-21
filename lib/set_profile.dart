@@ -19,5 +19,5 @@ class Info {
   var email="Enter your email";
   var number="Enter your number";
   var about=" ";
-  Info(this.name,this.linkedin,this.github,this.about,this.collegeName,this.domain,this.email,this.number);
+  Info(this.name,this.domain,this.collegeName,this.github,this.linkedin,this.email,this.number,this.about);
 }
