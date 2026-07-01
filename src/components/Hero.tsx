@@ -39,7 +39,7 @@ export default function Hero({ onStartProjectClick }: HeroProps) {
             className="relative w-[75%] md:w-[85%] aspect-[3/4] rounded-3xl overflow-hidden group "
           >
             <img
-              src="/src/assets/images/person.png"
+              src="https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/person.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9wZXJzb24ucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwOTgzOCwiZXhwIjoxODE0NDQ1ODM4fQ.iOk8CJy384Mp0PWgIsEURzx2-KW3xAsiX8BOJul4UdQ"
               alt={`${name} Portfolio Portrait`}
               referrerPolicy="no-referrer"
               className="w-full  object-cover grayscale brightness-110 contrast-105 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
