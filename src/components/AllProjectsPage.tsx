@@ -105,10 +105,15 @@ export default function AllProjectsPage({ onBackToHome }: AllProjectsPageProps) 
                     <p className="text-white/60 text-xs font-sans">
                       {project.subtitle}
                     </p>
-                    <div className="pt-1">
+                    <div className="pt-1 flex flex-wrap gap-2">
                       <span className="px-2.5 py-1 rounded-full border border-white/10 text-[9px] uppercase tracking-widest font-bold text-white/50 group-hover:border-brand-orange group-hover:text-brand-orange transition-colors">
                         {project.category}
                       </span>
+                      {project.status && (
+                        <span className="px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-[9px] uppercase tracking-widest font-bold text-brand-orange">
+                          {project.status}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -204,9 +209,16 @@ export default function AllProjectsPage({ onBackToHome }: AllProjectsPageProps) 
                   <div className="lg:col-span-5 flex flex-col justify-between gap-8">
                     <div className="flex flex-col gap-6">
                       <div>
-                        <span className="px-3 py-1 rounded-full border border-brand-orange/30 text-[10px] uppercase tracking-widest font-bold text-brand-orange bg-brand-orange/5">
-                          {selectedProject.category}
-                        </span>
+                        <div className="flex flex-wrap gap-2">
+                          <span className="px-3 py-1 rounded-full border border-brand-orange/30 text-[10px] uppercase tracking-widest font-bold text-brand-orange bg-brand-orange/5">
+                            {selectedProject.category}
+                          </span>
+                          {selectedProject.status && (
+                            <span className="px-3 py-1 rounded-full border border-white/20 text-[10px] uppercase tracking-widest font-bold text-white/80 bg-white/5">
+                              {selectedProject.status}
+                            </span>
+                          )}
+                        </div>
                         <h2 className="text-2xl md:text-4xl font-bold font-sans text-white mt-4 leading-tight">
                           {selectedProject.title}
                         </h2>

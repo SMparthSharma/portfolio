@@ -64,6 +64,11 @@ export default function Projects({ onSeeAllWorks }: ProjectsProps) {
                       <span className="px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] uppercase tracking-widest font-bold text-white/50 group-hover:border-brand-orange group-hover:text-brand-orange transition-colors">
                         {projectsList[0].category}
                       </span>
+                      {projectsList[0].status && (
+                        <span className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-widest font-bold text-brand-orange">
+                          {projectsList[0].status}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -100,6 +105,11 @@ export default function Projects({ onSeeAllWorks }: ProjectsProps) {
                       <span className="px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] uppercase tracking-widest font-bold text-white/50 group-hover:border-brand-orange group-hover:text-brand-orange transition-colors">
                         {projectsList[2].category}
                       </span>
+                      {projectsList[2].status && (
+                        <span className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-widest font-bold text-brand-orange">
+                          {projectsList[2].status}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -176,6 +186,11 @@ export default function Projects({ onSeeAllWorks }: ProjectsProps) {
                       <span className="px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] uppercase tracking-widest font-bold text-white/50 group-hover:border-brand-orange group-hover:text-brand-orange transition-colors">
                         {projectsList[1].category}
                       </span>
+                      {projectsList[1].status && (
+                        <span className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-widest font-bold text-brand-orange">
+                          {projectsList[1].status}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -212,6 +227,11 @@ export default function Projects({ onSeeAllWorks }: ProjectsProps) {
                       <span className="px-3.5 py-1.5 rounded-full border border-white/10 text-[10px] uppercase tracking-widest font-bold text-white/50 group-hover:border-brand-orange group-hover:text-brand-orange transition-colors">
                         {projectsList[3].category}
                       </span>
+                      {projectsList[3].status && (
+                        <span className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-widest font-bold text-brand-orange">
+                          {projectsList[3].status}
+                        </span>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -318,9 +338,16 @@ export default function Projects({ onSeeAllWorks }: ProjectsProps) {
                   <div className="lg:col-span-5 flex flex-col justify-between gap-8">
                     <div className="flex flex-col gap-6">
                       <div>
-                        <span className="px-3 py-1 rounded-full border border-brand-orange/30 text-[10px] uppercase tracking-widest font-bold text-brand-orange bg-brand-orange/5">
-                          {selectedProject.category}
-                        </span>
+                        <div className="flex flex-wrap gap-2">
+                          <span className="px-3 py-1 rounded-full border border-brand-orange/30 text-[10px] uppercase tracking-widest font-bold text-brand-orange bg-brand-orange/5">
+                            {selectedProject.category}
+                          </span>
+                          {selectedProject.status && (
+                            <span className="px-3 py-1 rounded-full border border-white/20 text-[10px] uppercase tracking-widest font-bold text-white/80 bg-white/5">
+                              {selectedProject.status}
+                            </span>
+                          )}
+                        </div>
                         <h2 className="text-2xl md:text-4xl font-bold font-sans text-white mt-4 leading-tight">
                           {selectedProject.title}
                         </h2>

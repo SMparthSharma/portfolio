@@ -13,6 +13,7 @@ export interface Project {
     live?: string;
   };
   video?: string; // YouTube embed URL or direct video URL
+  status?: 'Live' | 'In Development' | 'Case Study';
 }
 
 export const projectsList: Project[] = [
@@ -22,6 +23,7 @@ export const projectsList: Project[] = [
     subtitle: "Accessibility-First Audio Learning For Visually Impaired Users.",
     description: "An accessibility-first audio course app built for visually impaired and low-vision users. Fully optimized for TalkBack screen reader navigation, with structured audio lessons, offline playback, and a UI designed around voice-first interaction rather than visual hierarchy. Currently available on Google Play Store.",
     category: "Mobile App",
+    status: "Live",
     thumbnail: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/banner.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvYmFubmVyLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODI5MDE5NjgsImV4cCI6MTgxNDQzNzk2OH0.WjEmyg14fpDQ3IE_5vSTrWUZpd3pjeguRmEmnCElsCY",
     images: [
       "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/pic%201.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvcGljIDEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwMjAwNywiZXhwIjoxODE0NDM4MDA3fQ.TaZQW-jV6Jicgp9-9aXwb4O94gMNpUANLKWyF6SGtN8",
@@ -38,21 +40,20 @@ export const projectsList: Project[] = [
     video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
-    id: "project-2",
-    title: "KeyPharma Company's Trava Product",
-    subtitle: "Built To Guide Customers From Discovery To Purchase.",
-    description: "An interactive and engaging pharmaceutical product marketing website. It streamlines the customer discovery phase using dynamic element transitions and leads users directly to checkout or localized store locations. An interactive and engaging pharmaceutical product marketing website. It streamlines the customer discovery phase using dynamic element transitions and leads users directly to checkout or localized store locations.",
-    category: "Web Development",
-    thumbnail: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
+    id: "habier",
+    title: "Habier",
+    subtitle: "A Habit Tracker Built For Indian Students & Young Professionals.",
+    description: "A self-initiated Flutter habit tracker designed for 18-30 year old Indian students and young professionals, built around behavioral psychology mechanics — streaks, identity-based habit framing, loss aversion, and social accountability pods. Offline-first architecture using Drift and Hive, with a Clean Architecture (MVVM) structure across five layers. Currently in active development.",
+    category: "Mobile App",
+    status: "In Development",
+    thumbnail: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/banner.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvYmFubmVyLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODI5MDE5NjgsImV4cCI6MTgxNDQzNzk2OH0.WjEmyg14fpDQ3IE_5vSTrWUZpd3pjeguRmEmnCElsCY",
     images: [
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/pic%201.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvcGljIDEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwMjAwNywiZXhwIjoxODE0NDM4MDA3fQ.TaZQW-jV6Jicgp9-9aXwb4O94gMNpUANLKWyF6SGtN8",
+      // "YOUR_HABIER_SCREENSHOT_2"
     ],
-    techStack: ["Next.js", "React Native", "Tailwind CSS", "GraphQL", "Strapi CMS"],
+    techStack: ["Flutter", "Dart", "Riverpod", "Drift", "Hive", "Firebase", "RevenueCat", "Rive", "Clean Architecture"],
     links: {
-      github: "https://github.com/example/keypharma-trava",
-      playstore: "https://play.google.com/store/apps",
-      live: "https://trava-keypharma.com"
+      // github: "https://github.com/SMparthSharma/habier" // only include if the repo is actually public
     }
   },
 

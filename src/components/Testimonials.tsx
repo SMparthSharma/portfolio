@@ -42,7 +42,7 @@ export default function Testimonials() {
           </div>
           
           {/* Arrow Buttons */}
-          <div className="flex gap-4">
+          <div className="hidden md:flex gap-4">
             <button
               onClick={handlePrev}
               className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-white/70 hover:text-white hover:border-brand-orange hover:bg-brand-orange/10 transition-all duration-300 active:scale-95"

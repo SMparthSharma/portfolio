@@ -15,7 +15,7 @@ export default function Services({ onStartProjectClick, onNavigateToServices }: 
 
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12">
         {/* Header Block */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-16">
+        <div className="flex flex-row items-center justify-between gap-4 pb-8">
           <div className="flex flex-col gap-4">
             <span className="text-xs uppercase tracking-widest text-brand-orange font-bold font-sans flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-brand-orange" />
@@ -74,7 +74,7 @@ export default function Services({ onStartProjectClick, onNavigateToServices }: 
               </div>
 
               {/* Arrow circle button column */}
-              <div className="md:w-[10%] flex justify-end pt-4 md:pt-0 w-full">
+              <div className="hidden md:flex md:w-[10%] justify-end">
                 <div className="w-11 h-11 rounded-full bg-brand-orange/10 border border-brand-orange/20 flex items-center justify-center text-brand-orange group-hover:bg-brand-orange group-hover:text-white group-hover:rotate-45 transition-all duration-500 shadow-md">
                   <ArrowUpRight className="w-5 h-5" />
                 </div>
