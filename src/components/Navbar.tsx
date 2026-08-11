@@ -60,7 +60,7 @@ export default function Navbar({ onBrandClick, onNavClick, onStartProjectClick }
               key={link.name}
               href={link.href}
               onClick={(e) => {
-                if (link.href === "#about" || link.href === "#services") {
+                if (link.href === "#about" || link.href === "#services" || link.href === "#projects") {
                   e.preventDefault();
                 }
                 onNavClick(link.href);
@@ -110,7 +110,7 @@ export default function Navbar({ onBrandClick, onNavClick, onStartProjectClick }
               key={link.name}
               href={link.href}
               onClick={(e) => {
-                if (link.href === "#about" || link.href === "#services") {
+                if (link.href === "#about" || link.href === "#services" || link.href === "#projects") {
                   e.preventDefault();
                 }
                 setIsOpen(false);

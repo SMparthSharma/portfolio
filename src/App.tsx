@@ -56,7 +56,7 @@ export default function App() {
       navigateToAboutMe();
     } else if (href === "#services") {
       navigateToServices();
-    } else if (href === "#all-projects") {
+    } else if (href === "#all-projects" || href === "#projects") {
       navigateToAllProjects();
     } else if (href === "#privacy" || href === "#privacy-policy") {
       navigateToPrivacyPolicy();

@@ -37,21 +37,25 @@ export const projectsList: Project[] = [
       playstore: "https://play.google.com/store/apps/details?id=com.vishav.smartstep"
     },
 
-    video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+   // video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
   },
   {
     id: "habier",
     title: "Habier",
-    subtitle: "A Habit Tracker Built For Indian Students & Young Professionals.",
+    subtitle: "A Habit Tracker Built For Students & Young Professionals.",
     description: "A self-initiated Flutter habit tracker designed for 18-30 year old Indian students and young professionals, built around behavioral psychology mechanics — streaks, identity-based habit framing, loss aversion, and social accountability pods. Offline-first architecture using Drift and Hive, with a Clean Architecture (MVVM) structure across five layers. Currently in active development.",
     category: "Mobile App",
     status: "In Development",
-    thumbnail: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/banner.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvYmFubmVyLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODI5MDE5NjgsImV4cCI6MTgxNDQzNzk2OH0.WjEmyg14fpDQ3IE_5vSTrWUZpd3pjeguRmEmnCElsCY",
+    thumbnail: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/banner.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL2Jhbm5lci53ZWJwIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDk0NiwiZXhwIjoxODE3OTg2OTQ2fQ.ZHU3M4Q2ixTUUCNeWTskq2qJP4LdBMQZ5rIjRLUQa9g",
     images: [
-      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/smart%20steps/pic%201.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvc21hcnQgc3RlcHMvcGljIDEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwMjAwNywiZXhwIjoxODE0NDM4MDA3fQ.TaZQW-jV6Jicgp9-9aXwb4O94gMNpUANLKWyF6SGtN8",
-      // "YOUR_HABIER_SCREENSHOT_2"
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDM0NSwiZXhwIjoxODE3OTg2MzQ1fQ.4owdlKB8t2QNYSP0rryQv79o298yKUkJX_2WfTRtLnM",
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzIucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDM3NywiZXhwIjoxODE3OTg2Mzc3fQ.5DJhlwI4COZ2WXgN3txvyt99ZOkgGTrosUhnrCgG4Bw",
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzMucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDM5OCwiZXhwIjoxODE3OTg2Mzk4fQ.x9A7J7sKjqmrC2MdiRSxFxSAqjiFvMhN2g7miDFmJtY",
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic4.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzQucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDQxMSwiZXhwIjoxODE3OTg2NDExfQ.j7zDLcn2-lb4-cgBiCmnizoVorKNU7O_OI7g7UypOH4",
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic5.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzUucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDQyOCwiZXhwIjoxODE3OTg2NDI4fQ.UO7ZpARURW2K9bBKkOH5lyz7jwcJrvsXLX1J_H6mJVA",
+      "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/projects/habier/pic6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvamVjdHMvaGFiaWVyL3BpYzYucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NjQ1MDQzOCwiZXhwIjoxODE3OTg2NDM4fQ.9T4_xD_VtdNzx-TSCW3At7nB_jIyXrXkb7wTqfeLL9M",
     ],
-    techStack: ["Flutter", "Dart", "Riverpod", "Drift", "Hive", "Firebase", "RevenueCat", "Rive", "Clean Architecture"],
+    techStack: ["Flutter", "Dart", "Riverpod", "Drift", "Hive", "Firebase", "RevenueCat", "Rive", "MVVM Architecture"],
     links: {
       // github: "https://github.com/SMparthSharma/habier" // only include if the repo is actually public
     }
