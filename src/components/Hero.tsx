@@ -100,7 +100,7 @@ export default function Hero({ onStartProjectClick }: HeroProps) {
         </motion.div>
 
         {/* Right Bottom Section: Client satisfaction card & specs */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.6 }}
@@ -109,7 +109,7 @@ export default function Hero({ onStartProjectClick }: HeroProps) {
         >
           <div className="w-full max-w-sm rounded-3xl p-5 bg-white/[0.03] border border-white/5 backdrop-blur-md shadow-xl flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              {/* Stacked Avatars */}
+           
               <div className="flex -space-x-2.5">
                 {[
                   "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100",
@@ -147,7 +147,7 @@ export default function Hero({ onStartProjectClick }: HeroProps) {
               </span>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

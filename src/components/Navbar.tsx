@@ -25,7 +25,7 @@ export default function Navbar({ onBrandClick, onNavClick, onStartProjectClick }
     { name: "Know Me", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Services", href: "#services" },
-    { name: "Testimonials", href: "#testimonials" },
+   // { name: "Testimonials", href: "#testimonials" },
   ];
 
   const handleLogoClick = (e: React.MouseEvent) => {

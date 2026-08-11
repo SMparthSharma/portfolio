@@ -138,13 +138,13 @@ export default function ServicesPage({ onBackToHome, onNavigateToStartProject }:
                 </div>
 
                 {/* Action CTA */}
-                <button
+                {/* <button
                   onClick={() => onNavigateToStartProject(service.title)}
                   className="w-full py-3.5 rounded-xl bg-white/5 hover:bg-brand-orange text-white font-bold text-xs tracking-widest uppercase transition-all duration-300 flex items-center justify-center gap-2 group/btn cursor-pointer"
                 >
                   <span>Discuss Project</span>
                   <ArrowRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                </button>
+                </button> */}
               </div>
 
             </motion.div>

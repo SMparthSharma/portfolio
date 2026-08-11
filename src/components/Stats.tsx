@@ -1,9 +1,9 @@
 export default function Stats() {
   const stats = [
     { text: "1+ YEARS EXPERIENCE" },
-    { text: "7+ DELIVERIES" },
-    { text: "99% POSITIVE REVIEWS" },
-    { text: "WORLDWIDE CLIENTS" },
+    { text: "7+ Build" },
+    { text: "Play Store" },
+    { text: "High App Proformance" },
   ];
 
   // Duplicate items to ensure smooth infinite loop

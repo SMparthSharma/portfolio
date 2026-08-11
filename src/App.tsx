@@ -116,7 +116,7 @@ export default function App() {
           <HowIHelp />
 
           {/* 7. Testimonials */}
-          <Testimonials />
+          {/* <Testimonials /> */}
 
           {/* 8. Giant CTA Ticker */}
           <CTA />
