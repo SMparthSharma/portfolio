@@ -53,7 +53,7 @@ export default function Footer({ onStartProjectClick, onNavClick }: FooterProps)
                 { name: "Know Me", href: "#about" },
                 { name: "Services", href: "#services" },
                 { name: "Projects", href: "#all-projects" },
-                { name: "Testimonials", href: "#testimonials" },
+               // { name: "Testimonials", href: "#testimonials" },
               ].map((link, idx) => (
                 <li key={idx}>
                   <a
@@ -81,10 +81,19 @@ export default function Footer({ onStartProjectClick, onNavClick }: FooterProps)
                 <Phone className="w-4 h-4 text-brand-orange" />
                 <span>{phone}</span>
               </li>
-              <li className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer">
-                <MessageSquare className="w-4 h-4 text-brand-orange" />
-                <span>{name}'s Telegram</span>
-              </li>
+              {aboutMeData.socialLinks.linkedin && (
+                <li>
+                  <a
+                    href={aboutMeData.socialLinks.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer"
+                  >
+                    <MessageSquare className="w-4 h-4 text-brand-orange" />
+                    <span>{name}'s LinkedIn</span>
+                  </a>
+                </li>
+              )}
               <li className="flex items-center gap-3 hover:text-white transition-colors cursor-pointer">
                 <Mail className="w-4 h-4 text-brand-orange" />
                 <span>{email}</span>

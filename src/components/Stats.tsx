@@ -1,7 +1,7 @@
 export default function Stats() {
   const stats = [
     { text: "1+ YEARS EXPERIENCE" },
-    { text: "7+ Build" },
+    { text: "7+ App Deliver" },
     { text: "Play Store" },
     { text: "High App Proformance" },
   ];

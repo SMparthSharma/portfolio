@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 
 export default function Clients() {
   const clients = [
-    { name: "SMART STEP", logo: "SMART STEP" },
-    { name: "DIXIE DOWNS", logo: "DIXIE DOWNS" },
-    { name: "rogue", logo: "rogue" },
-    { name: "Perfect", logo: "Perfect" },
-    { name: "ED.PET", logo: "ED.PET" },
-    { name: "Trava", logo: "Trava" },
+    { name: "Flutter", logo: "FLUTTER" },
+    { name: "React Native", logo: "REACT NATIVE" },
+    { name: "Android", logo: "ANDROID" },
+    { name: "Ios", logo: "IOS" },
+    { name: "Firebase", logo: "FIREBASE" },
+    { name: "Supabase", logo: "SUPABASE" },
   ];
 
   return (
@@ -20,46 +20,46 @@ export default function Clients() {
               whileHover={{ scale: 1.05 }}
               className="flex items-center justify-center filter grayscale contrast-200 hover:grayscale-0 transition-all duration-300 cursor-pointer"
             >
-              {client.name === "SMART STEP" && (
+              {client.name === "Flutter" && (
                 <span className="font-bebas text-3xl tracking-widest text-white/60 hover:text-white transition-colors duration-300">
-                  SMART STEP
+                  Flutter
                 </span>
               )}
-              {client.name === "DIXIE DOWNS" && (
+              {client.name === "React Native" && (
                 <div className="flex items-center gap-1.5">
                   <div className="w-4 h-4 rounded-full border-2 border-white/60 flex items-center justify-center">
                     <div className="w-1.5 h-1.5 rounded-full bg-white/60" />
                   </div>
                   <span className="font-sans text-xs tracking-[0.25em] font-black text-white/60 hover:text-white transition-colors duration-300">
-                    DIXIE DOWNS
+                    React Native
                   </span>
                 </div>
               )}
-              {client.name === "rogue" && (
+              {client.name === "Android" && (
                 <span className="font-sans text-2xl tracking-tighter font-extrabold lowercase text-white/60 hover:text-white transition-colors duration-300">
-                  rogue<span className="text-brand-orange">.</span>
+                  Android<span className="text-brand-orange">.</span>
                 </span>
               )}
-              {client.name === "Perfect" && (
+              {client.name === "Ios" && (
                 <div className="flex flex-col items-center leading-none">
-                  <span className="text-[10px] tracking-widest text-white/40 uppercase font-bold">THE</span>
+                  <span className="text-[10px] tracking-widest text-white/40 uppercase font-bold">Ios</span>
                   <span className="font-serif text-xl italic tracking-wider text-white/60 hover:text-white transition-colors duration-300">
-                    Perfect
+                    Ios
                   </span>
                 </div>
               )}
-              {client.name === "ED.PET" && (
+              {client.name === "Firebase" && (
                 <div className="flex items-center gap-1">
                   <span className="font-sans text-sm tracking-widest font-black text-white/60 hover:text-white transition-colors duration-300">
-                    ED.PET
+                    Firebase
                   </span>
                 </div>
               )}
-              {client.name === "Trava" && (
+              {client.name === "Supabase" && (
                 <div className="flex items-center gap-1">
                   <div className="w-2.5 h-2.5 bg-brand-orange rounded-sm rotate-45" />
                   <span className="font-sans text-lg tracking-widest font-bold text-white/60 hover:text-white transition-colors duration-300">
-                    Trava
+                    Supabase
                   </span>
                 </div>
               )}
