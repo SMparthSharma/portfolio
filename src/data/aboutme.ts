@@ -101,10 +101,10 @@ export const aboutMeData: AboutMeData = {
     pdf: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/resume.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9yZXN1bWUucGRmIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwMTQ1NiwiZXhwIjoxODE0NDM3NDU2fQ.81ZElZyFp_GlP3dJKsVghFW5Y9jU5YMhh_nT-I_awzk"
   },
   email: "parthsms2@gmail.com",
-  website: "robinsweb.dev",
+  website: "https://smparth-portfolio.vercel.app/",
   location: "Rajasthan, India",
   experienceYears: "1+ Years",
-  projectsCompleted: "15+ Completed",
+  projectsCompleted: "7+ Completed",
   specialty: "Mobile Apps / UI",
   phone: "+91 8290893163",
   coreSkills: [
