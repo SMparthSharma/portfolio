@@ -98,7 +98,7 @@ export const aboutMeData: AboutMeData = {
   },
   resumeUrl: {
     image: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/resumeImg.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9yZXN1bWVJbWcucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwNzk4OCwiZXhwIjoxODE0NDQzOTg4fQ.1qN4h798TWdPuxtySNT17vGb4FsRI49QbWcr2X30YE8",
-    pdf: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/resume.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9yZXN1bWUucGRmIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4MjkwMTQ1NiwiZXhwIjoxODE0NDM3NDU2fQ.81ZElZyFp_GlP3dJKsVghFW5Y9jU5YMhh_nT-I_awzk"
+    pdf: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/FlutterResume.pdf?token=eyJraWQiOiIwMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9GbHV0dGVyUmVzdW1lLnBkZiIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODk0NzUwMDUsImV4cCI6MTgyMTAxMTAwNX0.v7FmrzJaaaAxZV_oXGDxhOh9d_jMCluAstQwtAl3fDc"
   },
   email: "parthsms2@gmail.com",
   website: "https://smparth-portfolio.vercel.app/",
