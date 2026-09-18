@@ -55,7 +55,7 @@ export const aboutMeData: AboutMeData = {
   title: "SM.PARTH",
   role: "Mobile App Developer (Flutter & React Native)",
   avatar: "https://mfrxdoxsrwclivjvzbtc.supabase.co/storage/v1/object/sign/assets/profile/me.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8wMjBkYjQzMS0wZWU3LTQ3ZDAtODY1Mi1kMTZiYThlYmMwNWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhc3NldHMvcHJvZmlsZS9tZS5wbmciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzgyOTAxMjcwLCJleHAiOjE4MTQ0MzcyNzB9.U7b80kyfQ3rmG3B0hsZ6kg7JiTdr2POohsihiqXpxLg",
-  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual intro video URL
+  videoUrl: "", // Replace with actual intro video URL
   bio: [
     "Hi, I'm Parth — a Flutter Developer with 1+ year of production experience building apps that actually ship. From TalkBack-accessible audio platforms to real-time chat, VPN clients, and GPS-based municipal ops tools, I build for performance, polish, and real users.",
     "My approach blends clean architecture with high-impact UI — micro-animations, fluid gestures, and interfaces that feel as good as they function. I care about the gap between 'it works' and 'it feels great.'",
